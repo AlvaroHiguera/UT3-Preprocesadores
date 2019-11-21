@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "mi_fuente";
+  src: url(../font-family/Pacifico-Regular.ttf);
+}
+div {
+  width: 80%;
+  min-height: 400px;
+  background-color: aqua;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dotted blue;
+  box-sizing: border-box;
+}
+div .cajaroja {
+  width: 60%;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+  border: yellow 5px solid;
+  box-sizing: border-box;
+  margin-top: 3%;
+  text-align: center;
+  font-family: "mi_fuente";
+}
+div .cajaextra {
+  font-family: "mi_fuente";
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=Ejercicio1.css.map */
