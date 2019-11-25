@@ -9,4 +9,24 @@ body {
   color: #bb3939;
 }
 
-/*# sourceMappingURL=ejercicio1-2.css.map */
+.contenedor {
+  width: 100%;
+  background-color: lightblue;
+  min-height: 200px;
+}
+
+article[role=main] {
+  float: left;
+  width: 62.5%;
+  min-height: 200px;
+  border: 1px solid blue;
+}
+
+aside[role=complementary] {
+  float: right;
+  width: 36.4583333333%;
+  min-height: 200px;
+  border: red solid 1px;
+}
+
+/*# sourceMappingURL=Ejercicio1-2.css.map */

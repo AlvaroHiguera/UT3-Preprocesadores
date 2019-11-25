@@ -7,6 +7,23 @@ body{
     font: 1em $furnte1;
     color: $colorprincipal;
 }
+.contenedor {
+        width: 100%;
+        background-color: lightblue;
+        min-height: 200px;
+}
+article[role=main] {
+    float: left;
+    width: 600px / 960px*100%;
+    min-height: 200px;
+    border: 1px solid blue;
+}
+aside[role=complementary] {
+    float: right;
+    width: 350px / 960px*100%;
+    min-height: 200px;
+    border: red solid 1px;
+}
 
 
 
