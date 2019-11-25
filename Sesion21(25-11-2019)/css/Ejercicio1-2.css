@@ -1,0 +1,12 @@
+html, body, ul, ol {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1em;
+}
+
+body {
+  font: 1em "elvetica, sans-serif";
+  color: #bb3939;
+}
+
+/*# sourceMappingURL=ejercicio1-2.css.map */
