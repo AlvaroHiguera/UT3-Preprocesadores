@@ -1,0 +1,82 @@
+.contenedor_felx {
+  display: flex;
+  width: 500px;
+  background-color: darkblue;
+  padding: 15px;
+  margin: 5px;
+  min-height: 120px;
+  > .elemento1 {
+    flex-basis: auto;
+    /* El flex basis con un tamaño definido no se modifica 
+        en cambio con auto si funciona */
+    flex-grow: 1;
+    background-color: #f1f1f1;
+  }
+  > .elemento2 {
+    flex-basis: auto;
+    flex-grow: 2;
+    background-color: #f1f1f1;
+  }
+  > .elemento3 {
+    flex-basis: auto;
+    flex-grow: 2;
+    background-color: #f1f1f1;
+  }
+
+  > .elemento_hijo1 {
+    flex-grow: 2;
+    align-self: flex-end;
+    background-color: #f1f1f1;
+  }
+  > .elemento_hijo2 {
+    flex-grow: 2;
+    align-self: center;
+    background-color: #f1f1f1;
+  }
+  > .elemento_hijo3 {
+    flex-grow: 2;
+    align-self: flex-start;
+    background-color: #f1f1f1;
+  }
+}
+.contenedor_felx_ancho {
+  display: flex;
+  width: 80%;
+  background-color: darkblue;
+  padding: 15px;
+  margin: 5px;
+  min-height: 120px;
+  > .elemento1 {
+    flex-basis: auto;
+    /* El flex basis con un tamaño definido no se modifica 
+        en cambio con auto si funciona */
+    flex-grow: 1;
+    background-color: #f1f1f1;
+  }
+  > .elemento2 {
+    flex-basis: auto;
+    flex-grow: 2;
+    background-color: #f1f1f1;
+  }
+  > .elemento3 {
+    flex-basis: auto;
+    flex-grow: 2;
+    background-color: #f1f1f1;
+  }
+
+  > .elemento_hijo1 {
+    flex-grow: 2;
+    align-self: flex-end;
+    background-color: #f1f1f1;
+  }
+  > .elemento_hijo2 {
+    flex-grow: 2;
+    align-self: center;
+    background-color: #f1f1f1;
+  }
+  > .elemento_hijo3 {
+    flex-grow: 2;
+    align-self: flex-start;
+    background-color: #f1f1f1;
+  }
+}
