@@ -1,0 +1,22 @@
+.contenedor_felx{
+    display:flex;
+    width: 500px;
+    background-color: darkblue;
+    > .elemento1{
+        flex-basis: 200px;
+        /* El flex basis con un tamaño definido no se modifica 
+        en cambio con auto si funciona */
+        flex-grow: 1;
+        background-color: #f1f1f1;
+    }
+    > .elemento2{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: #f1f1f1;
+    }
+    > .elemento3{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: #f1f1f1;
+    }
+}
