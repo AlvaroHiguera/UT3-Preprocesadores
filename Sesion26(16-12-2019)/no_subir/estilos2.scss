@@ -8,17 +8,18 @@ body{
 
 
 
-.ccontenedor{
+.contenedor{
     counter-reset: consola1;
     h1{
-        
+        counter-increment: consola1;
+
     }
     h1::before{
         counter-reset: videojuegos;
-        content: "Consola de videojuegos "counter(consola1)": ";
+        content: "Consola "counter(consola1)": ";
     }    
     h2::before{
         counter-increment: videojuegos;
-        content: "Consola de videojuegos "counter(consola1)": ";
+        content: "Videojuegos "counter(videojuegos)": ";
     }
 }

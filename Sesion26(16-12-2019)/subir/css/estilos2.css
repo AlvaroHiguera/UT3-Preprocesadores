@@ -6,16 +6,19 @@ body h3::before {
   content: "Consola de videojuegos " counter(consola) ": ";
 }
 
-.ccontenedor {
+.contenedor {
   counter-reset: consola1;
 }
-.ccontenedor h1::before {
-  counter-reset: videojuegos;
-  content: "Consola de videojuegos " counter(consola1) ": ";
+.contenedor h1 {
+  counter-increment: consola1;
 }
-.ccontenedor h2::before {
+.contenedor h1::before {
+  counter-reset: videojuegos;
+  content: "Consola " counter(consola1) ": ";
+}
+.contenedor h2::before {
   counter-increment: videojuegos;
-  content: "Consola de videojuegos " counter(consola1) ": ";
+  content: "Videojuegos " counter(videojuegos) ": ";
 }
 
 /*# sourceMappingURL=estilos2.css.map */
